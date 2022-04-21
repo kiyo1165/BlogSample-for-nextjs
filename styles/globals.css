@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  h1 {
+    @apply text-4xl font-bold text-gray-800 leading-10
+  }
+  h2 {
+    @apply text-3xl font-bold text-gray-800 leading-9
+  }
+  h3 {
+    @apply text-2xl font-semibold text-gray-800 leading-8
+  }
+  h4 {
+    @apply text-xl font-semibold text-gray-800 leading-8
+  }
+  p {
+    @apply text-base font-normal leading-7 text-gray-800
+  }
+}
